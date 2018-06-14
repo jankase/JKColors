@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D63B41620D0EE3B002F8892"
-               BuildableName = "JKColors_macOS.framework"
+               BlueprintIdentifier = "1DC9E5ED20D244FE0084C73A"
+               BuildableName = "JKColors.framework"
                BlueprintName = "JKColors_macOS"
                ReferencedContainer = "container:JKColors.xcodeproj">
             </BuildableReference>
@@ -26,13 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D63B41E20D0EE3B002F8892"
+               BlueprintIdentifier = "1DC9E5F520D244FE0084C73A"
                BuildableName = "JKColors_macOSTests.xctest"
                BlueprintName = "JKColors_macOSTests"
                ReferencedContainer = "container:JKColors.xcodeproj">
@@ -42,8 +43,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D63B41620D0EE3B002F8892"
-            BuildableName = "JKColors_macOS.framework"
+            BlueprintIdentifier = "1DC9E5ED20D244FE0084C73A"
+            BuildableName = "JKColors.framework"
             BlueprintName = "JKColors_macOS"
             ReferencedContainer = "container:JKColors.xcodeproj">
          </BuildableReference>
@@ -64,8 +65,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D63B41620D0EE3B002F8892"
-            BuildableName = "JKColors_macOS.framework"
+            BlueprintIdentifier = "1DC9E5ED20D244FE0084C73A"
+            BuildableName = "JKColors.framework"
             BlueprintName = "JKColors_macOS"
             ReferencedContainer = "container:JKColors.xcodeproj">
          </BuildableReference>
@@ -82,8 +83,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D63B41620D0EE3B002F8892"
-            BuildableName = "JKColors_macOS.framework"
+            BlueprintIdentifier = "1DC9E5ED20D244FE0084C73A"
+            BuildableName = "JKColors.framework"
             BlueprintName = "JKColors_macOS"
             ReferencedContainer = "container:JKColors.xcodeproj">
          </BuildableReference>

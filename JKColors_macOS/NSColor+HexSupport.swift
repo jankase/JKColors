@@ -7,17 +7,20 @@ import AppKit
 
 public extension NSColor {
 
-  public convenience init!<T:BinaryInteger>(red aRed: T, green aGreen: T, blue aBlue: T, alpha anAlpha: CGFloat = 1) {
-    guard let theRed = CGFloat(exactly: aRed),
-          let theGreen = CGFloat(exactly: aGreen),
-          let theBlue = CGFloat(exactly: aBlue) else {
-      return nil
-    }
-    self.init(red: theRed / 255.0, green: theGreen / 255.0, blue: theBlue / 255.0, alpha: anAlpha)
+  convenience init(red aRed: Int, green aGreen: Int, blue aBlue: Int, alpha anAlpha: CGFloat = 1) {
+    let theRed = CGFloat(aRed) / 255.0
+    let theGreen = CGFloat(aGreen) / 255.0
+    let theBlue = CGFloat(aBlue) / 255.0
+    self.init(red: theRed, green: theGreen, blue: theBlue, alpha: anAlpha)
   }
 
-  public convenience init!<T:BinaryInteger>(rgb: T, alpha anAlpha: CGFloat = 1.0) {
-    self.init(red: (rgb >> 16) & 0xFF, green: (rgb >> 8) & 0xFF, blue: rgb & 0xFF, alpha: anAlpha)
+  convenience init!<T: BinaryInteger>(rgb: T, alpha anAlpha: CGFloat = 1.0) {
+    guard let theRed = (rgb >> 16) & 0xFF as? Int,
+          let theGreen = (rgb >> 8) & 0xFF as? Int,
+          let theBlue = rgb & 0xFF as? Int else {
+      return nil
+    }
+    self.init(red: theRed, green: theGreen, blue: theBlue, alpha: anAlpha)
   }
 
 }

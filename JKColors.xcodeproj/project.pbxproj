@@ -3,330 +3,364 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D63B3F220D0DEAA002F8892 /* JKColors_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D63B3F020D0DEAA002F8892 /* JKColors_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D63B40420D0DFDA002F8892 /* JKColors_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63B3FB20D0DFD9002F8892 /* JKColors_tvOS.framework */; };
-		1D63B40920D0DFDA002F8892 /* JKColors_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63B40820D0DFDA002F8892 /* JKColors_tvOSTests.swift */; };
-		1D63B40B20D0DFDA002F8892 /* JKColors_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D63B3FD20D0DFDA002F8892 /* JKColors_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D63B42020D0EE3B002F8892 /* JKColors_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63B41720D0EE3B002F8892 /* JKColors_macOS.framework */; };
-		1D63B42520D0EE3B002F8892 /* JKColors_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63B42420D0EE3B002F8892 /* JKColors_macOSTests.swift */; };
-		1D63B42720D0EE3B002F8892 /* JKColors_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D63B41920D0EE3B002F8892 /* JKColors_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D63B43120D14118002F8892 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63B42F20D14118002F8892 /* Nimble.framework */; };
-		1D63B43220D14118002F8892 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63B43020D14118002F8892 /* Quick.framework */; };
-		1D63B43520D14131002F8892 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63B43320D14131002F8892 /* Quick.framework */; };
-		1D63B43620D14131002F8892 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63B43420D14131002F8892 /* Nimble.framework */; };
-		1D63B43920D14149002F8892 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63B43720D14149002F8892 /* Nimble.framework */; };
-		1D63B43A20D14149002F8892 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63B43820D14149002F8892 /* Quick.framework */; };
-		931AD2150E0792F5B6DD2C6C /* UIColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD0181011314C4F7C0F00 /* UIColor+HexSupport.swift */; };
-		931AD55CEBCFBD666D113A73 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 931ADD4CB7ACA9A99BDB3FEB /* .swiftlint.yml */; };
-		931AD76CCF0816CBB03D3A48 /* JKColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD31F86CE03AE82282AB8 /* JKColorsTests.swift */; };
-		931AD80ED9785526806CA914 /* JKColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AD6B0D3B00C77BEB6D3BC /* JKColors.framework */; };
-		931AD81B292063F3F046093A /* UIColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD0181011314C4F7C0F00 /* UIColor+HexSupport.swift */; };
-		931AD995A8A9B4736783EDA2 /* UIColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD0181011314C4F7C0F00 /* UIColor+HexSupport.swift */; };
-		931ADB7C079EE00A295946CA /* JKColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 931ADA530468A0C65F8E05E0 /* JKColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		931ADBC602B86E0617EC19B3 /* NSColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD9B6DBCF1695824F302F /* NSColor+HexSupport.swift */; };
-		931ADC3B2FFF663425A22035 /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB7D709CBA5B088FA2B0 /* String+HexColorSupport.swift */; };
-		931ADD12C0688423539563E8 /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB7D709CBA5B088FA2B0 /* String+HexColorSupport.swift */; };
-		931ADD19A55543F79EB27DD1 /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB7D709CBA5B088FA2B0 /* String+HexColorSupport.swift */; };
-		931ADD6C0F4E0D0B4DEE5797 /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB4966C760EA1BCCA828 /* String+HexColorSupport.swift */; };
+		1DC9E5AC20D16E730084C73A /* JKColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9E5A220D16E720084C73A /* JKColors.framework */; };
+		1DC9E5B320D16E730084C73A /* JKColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC9E5A520D16E720084C73A /* JKColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC9E5C520D16F5E0084C73A /* JKColors_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC9E5C320D16F5D0084C73A /* JKColors_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC9E5C920D16F760084C73A /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADD957B98BE0425BC5438 /* String+HexColorSupport.swift */; };
+		1DC9E5CA20D16F7A0084C73A /* UIColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2AD5991C8D6ED3AED56 /* UIColor+HexSupport.swift */; };
+		1DC9E5D920D1704C0084C73A /* JKColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9E5D020D1704B0084C73A /* JKColors.framework */; };
+		1DC9E5E020D1704C0084C73A /* JKColors_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC9E5D220D1704B0084C73A /* JKColors_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC9E5E720D170730084C73A /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADD957B98BE0425BC5438 /* String+HexColorSupport.swift */; };
+		1DC9E5E820D170760084C73A /* UIColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2AD5991C8D6ED3AED56 /* UIColor+HexSupport.swift */; };
+		1DC9E5F720D244FE0084C73A /* JKColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9E5EE20D244FE0084C73A /* JKColors.framework */; };
+		1DC9E5FE20D244FE0084C73A /* JKColors_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC9E5F020D244FE0084C73A /* JKColors_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC9E60820D2BC070084C73A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9E60620D2BC070084C73A /* Nimble.framework */; };
+		1DC9E60920D2BC070084C73A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9E60720D2BC070084C73A /* Quick.framework */; };
+		1DC9E60C20D2BC3E0084C73A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9E60A20D2BC3E0084C73A /* Nimble.framework */; };
+		1DC9E60D20D2BC3E0084C73A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9E60B20D2BC3E0084C73A /* Quick.framework */; };
+		1DC9E61020D2BC580084C73A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9E60E20D2BC580084C73A /* Nimble.framework */; };
+		1DC9E61120D2BC580084C73A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9E60F20D2BC580084C73A /* Quick.framework */; };
+		931AD0D137D322834631DB80 /* NSColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB5BCAC0671447E88C82 /* NSColor+HexSupport.swift */; };
+		931AD0ECB157A579331CD461 /* UIColorRGBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADE0D83FD0B3233F1D62E /* UIColorRGBTest.swift */; };
+		931AD29D9CC7D32A355F98FA /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD9B52160511B4DA85592 /* String+HexColorSupport.swift */; };
+		931AD64A976C78E2DC79116A /* UIColorRGBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADE0D83FD0B3233F1D62E /* UIColorRGBTest.swift */; };
+		931AD72CEB3F8319DA76FC1E /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADD957B98BE0425BC5438 /* String+HexColorSupport.swift */; };
+		931AD9269A3F2867CBE3C445 /* NSColorRGBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADD4FAA547847B8D9F13D /* NSColorRGBTest.swift */; };
+		931ADB58178025C661C5A01D /* UIColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2AD5991C8D6ED3AED56 /* UIColor+HexSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D63B40520D0DFDA002F8892 /* PBXContainerItemProxy */ = {
+		1DC9E5AD20D16E730084C73A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 931ADD6ECC443AE41C580EFC /* Project object */;
+			containerPortal = 1DC9E59920D16E720084C73A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D63B3FA20D0DFD9002F8892;
+			remoteGlobalIDString = 1DC9E5A120D16E720084C73A;
+			remoteInfo = JKColors;
+		};
+		1DC9E5DA20D1704C0084C73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DC9E59920D16E720084C73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC9E5CF20D1704B0084C73A;
 			remoteInfo = JKColors_tvOS;
 		};
-		1D63B42120D0EE3B002F8892 /* PBXContainerItemProxy */ = {
+		1DC9E5F820D244FE0084C73A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 931ADD6ECC443AE41C580EFC /* Project object */;
+			containerPortal = 1DC9E59920D16E720084C73A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D63B41620D0EE3B002F8892;
+			remoteGlobalIDString = 1DC9E5ED20D244FE0084C73A;
 			remoteInfo = JKColors_macOS;
-		};
-		931ADB39B16D1E87C52E5FA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 931ADD6ECC443AE41C580EFC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 931AD99171E8469383BC9099;
-			remoteInfo = JKColors;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D63B3EE20D0DEAA002F8892 /* JKColors_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKColors_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D63B3F020D0DEAA002F8892 /* JKColors_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKColors_watchOS.h; sourceTree = "<group>"; };
-		1D63B3F120D0DEAA002F8892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D63B3FB20D0DFD9002F8892 /* JKColors_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKColors_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D63B3FD20D0DFDA002F8892 /* JKColors_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKColors_tvOS.h; sourceTree = "<group>"; };
-		1D63B3FE20D0DFDA002F8892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D63B40320D0DFDA002F8892 /* JKColors_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKColors_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D63B40820D0DFDA002F8892 /* JKColors_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKColors_tvOSTests.swift; sourceTree = "<group>"; };
-		1D63B40A20D0DFDA002F8892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D63B41720D0EE3B002F8892 /* JKColors_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKColors_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D63B41920D0EE3B002F8892 /* JKColors_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKColors_macOS.h; sourceTree = "<group>"; };
-		1D63B41A20D0EE3B002F8892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D63B41F20D0EE3B002F8892 /* JKColors_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKColors_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D63B42420D0EE3B002F8892 /* JKColors_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKColors_macOSTests.swift; sourceTree = "<group>"; };
-		1D63B42620D0EE3B002F8892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D63B42F20D14118002F8892 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		1D63B43020D14118002F8892 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		1D63B43320D14131002F8892 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
-		1D63B43420D14131002F8892 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
-		1D63B43720D14149002F8892 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
-		1D63B43820D14149002F8892 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		931AD0181011314C4F7C0F00 /* UIColor+HexSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexSupport.swift"; sourceTree = "<group>"; };
-		931AD054036722DD444BCB33 /* JKColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		931AD31F86CE03AE82282AB8 /* JKColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKColorsTests.swift; sourceTree = "<group>"; };
-		931AD6B0D3B00C77BEB6D3BC /* JKColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		931AD7ACAD20FCBA2E401F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		931AD9B6DBCF1695824F302F /* NSColor+HexSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+HexSupport.swift"; sourceTree = "<group>"; };
-		931ADA530468A0C65F8E05E0 /* JKColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKColors.h; sourceTree = "<group>"; };
-		931ADB4966C760EA1BCCA828 /* String+HexColorSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HexColorSupport.swift"; sourceTree = "<group>"; };
-		931ADB7D709CBA5B088FA2B0 /* String+HexColorSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HexColorSupport.swift"; sourceTree = "<group>"; };
-		931ADC0E26D069C452F6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		931ADD4CB7ACA9A99BDB3FEB /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		1DC9E5A220D16E720084C73A /* JKColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC9E5A520D16E720084C73A /* JKColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKColors.h; sourceTree = "<group>"; };
+		1DC9E5A620D16E720084C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC9E5AB20D16E730084C73A /* JKColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC9E5B220D16E730084C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC9E5C120D16F5D0084C73A /* JKColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC9E5C320D16F5D0084C73A /* JKColors_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKColors_watchOS.h; sourceTree = "<group>"; };
+		1DC9E5C420D16F5E0084C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC9E5D020D1704B0084C73A /* JKColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC9E5D220D1704B0084C73A /* JKColors_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKColors_tvOS.h; sourceTree = "<group>"; };
+		1DC9E5D320D1704B0084C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC9E5D820D1704C0084C73A /* JKColors_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKColors_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC9E5DF20D1704C0084C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC9E5EE20D244FE0084C73A /* JKColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC9E5F020D244FE0084C73A /* JKColors_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKColors_macOS.h; sourceTree = "<group>"; };
+		1DC9E5F120D244FE0084C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC9E5F620D244FE0084C73A /* JKColors_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKColors_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC9E5FD20D244FE0084C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC9E60620D2BC070084C73A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		1DC9E60720D2BC070084C73A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		1DC9E60A20D2BC3E0084C73A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
+		1DC9E60B20D2BC3E0084C73A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
+		1DC9E60E20D2BC580084C73A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		1DC9E60F20D2BC580084C73A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		931AD2AD5991C8D6ED3AED56 /* UIColor+HexSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexSupport.swift"; sourceTree = "<group>"; };
+		931AD935FB4246DEE1769C18 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = file.private; path = Cartfile.private; sourceTree = "<group>"; };
+		931AD9B52160511B4DA85592 /* String+HexColorSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HexColorSupport.swift"; sourceTree = "<group>"; };
+		931ADB5BCAC0671447E88C82 /* NSColor+HexSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+HexSupport.swift"; sourceTree = "<group>"; };
+		931ADD4FAA547847B8D9F13D /* NSColorRGBTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorRGBTest.swift; sourceTree = "<group>"; };
+		931ADD957B98BE0425BC5438 /* String+HexColorSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HexColorSupport.swift"; sourceTree = "<group>"; };
+		931ADE0D83FD0B3233F1D62E /* UIColorRGBTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorRGBTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D63B3EA20D0DEAA002F8892 /* Frameworks */ = {
+		1DC9E59E20D16E720084C73A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B3F720D0DFD9002F8892 /* Frameworks */ = {
+		1DC9E5A820D16E730084C73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC9E60820D2BC070084C73A /* Nimble.framework in Frameworks */,
+				1DC9E60920D2BC070084C73A /* Quick.framework in Frameworks */,
+				1DC9E5AC20D16E730084C73A /* JKColors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC9E5BD20D16F5D0084C73A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B40020D0DFDA002F8892 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D63B43520D14131002F8892 /* Quick.framework in Frameworks */,
-				1D63B43620D14131002F8892 /* Nimble.framework in Frameworks */,
-				1D63B40420D0DFDA002F8892 /* JKColors_tvOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D63B41320D0EE3B002F8892 /* Frameworks */ = {
+		1DC9E5CC20D1704B0084C73A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B41C20D0EE3B002F8892 /* Frameworks */ = {
+		1DC9E5D520D1704C0084C73A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D63B43920D14149002F8892 /* Nimble.framework in Frameworks */,
-				1D63B43A20D14149002F8892 /* Quick.framework in Frameworks */,
-				1D63B42020D0EE3B002F8892 /* JKColors_macOS.framework in Frameworks */,
+				1DC9E60C20D2BC3E0084C73A /* Nimble.framework in Frameworks */,
+				1DC9E60D20D2BC3E0084C73A /* Quick.framework in Frameworks */,
+				1DC9E5D920D1704C0084C73A /* JKColors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		931ADA760C76FC9F6F32EA66 /* Frameworks */ = {
+		1DC9E5EA20D244FE0084C73A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		931ADB6ED589E4A4B4A8EB43 /* Frameworks */ = {
+		1DC9E5F320D244FE0084C73A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D63B43120D14118002F8892 /* Nimble.framework in Frameworks */,
-				1D63B43220D14118002F8892 /* Quick.framework in Frameworks */,
-				931AD80ED9785526806CA914 /* JKColors.framework in Frameworks */,
+				1DC9E61020D2BC580084C73A /* Nimble.framework in Frameworks */,
+				1DC9E61120D2BC580084C73A /* Quick.framework in Frameworks */,
+				1DC9E5F720D244FE0084C73A /* JKColors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D63B3EF20D0DEAA002F8892 /* JKColors_watchOS */ = {
+		1DC9E59820D16E720084C73A = {
 			isa = PBXGroup;
 			children = (
-				1D63B3F020D0DEAA002F8892 /* JKColors_watchOS.h */,
-				1D63B3F120D0DEAA002F8892 /* Info.plist */,
+				1DC9E5A420D16E720084C73A /* JKColors */,
+				1DC9E5AF20D16E730084C73A /* JKColorsTests */,
+				1DC9E5C220D16F5D0084C73A /* JKColors_watchOS */,
+				1DC9E5D120D1704B0084C73A /* JKColors_tvOS */,
+				1DC9E5DC20D1704C0084C73A /* JKColors_tvOSTests */,
+				1DC9E5EF20D244FE0084C73A /* JKColors_macOS */,
+				1DC9E5FA20D244FE0084C73A /* JKColors_macOSTests */,
+				1DC9E5A320D16E720084C73A /* Products */,
+				931AD49F6CD45F1B91883488 /* Shared */,
+				931AD8EE0C05F2CD334A00FF /* SharedTest */,
+				931AD935FB4246DEE1769C18 /* Cartfile.private */,
+				1DC9E60520D2BC060084C73A /* Frameworks */,
 			);
-			path = JKColors_watchOS;
 			sourceTree = "<group>";
 		};
-		1D63B3FC20D0DFDA002F8892 /* JKColors_tvOS */ = {
+		1DC9E5A320D16E720084C73A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D63B3FD20D0DFDA002F8892 /* JKColors_tvOS.h */,
-				1D63B3FE20D0DFDA002F8892 /* Info.plist */,
-			);
-			path = JKColors_tvOS;
-			sourceTree = "<group>";
-		};
-		1D63B40720D0DFDA002F8892 /* JKColors_tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				1D63B40820D0DFDA002F8892 /* JKColors_tvOSTests.swift */,
-				1D63B40A20D0DFDA002F8892 /* Info.plist */,
-			);
-			path = JKColors_tvOSTests;
-			sourceTree = "<group>";
-		};
-		1D63B41820D0EE3B002F8892 /* JKColors_macOS */ = {
-			isa = PBXGroup;
-			children = (
-				1D63B41920D0EE3B002F8892 /* JKColors_macOS.h */,
-				1D63B41A20D0EE3B002F8892 /* Info.plist */,
-				931AD9B6DBCF1695824F302F /* NSColor+HexSupport.swift */,
-				931ADB4966C760EA1BCCA828 /* String+HexColorSupport.swift */,
-			);
-			path = JKColors_macOS;
-			sourceTree = "<group>";
-		};
-		1D63B42320D0EE3B002F8892 /* JKColors_macOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				1D63B42420D0EE3B002F8892 /* JKColors_macOSTests.swift */,
-				1D63B42620D0EE3B002F8892 /* Info.plist */,
-			);
-			path = JKColors_macOSTests;
-			sourceTree = "<group>";
-		};
-		1D63B42E20D14117002F8892 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1D63B43720D14149002F8892 /* Nimble.framework */,
-				1D63B43820D14149002F8892 /* Quick.framework */,
-				1D63B43420D14131002F8892 /* Nimble.framework */,
-				1D63B43320D14131002F8892 /* Quick.framework */,
-				1D63B42F20D14118002F8892 /* Nimble.framework */,
-				1D63B43020D14118002F8892 /* Quick.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		931AD22D4FB74D5FE59BCF13 /* SharedTest */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SharedTest;
-			sourceTree = "<group>";
-		};
-		931AD439D1A40F09707BAEEB /* JKColors */ = {
-			isa = PBXGroup;
-			children = (
-				931ADC0E26D069C452F6AF17 /* Info.plist */,
-				931ADA530468A0C65F8E05E0 /* JKColors.h */,
-			);
-			path = JKColors;
-			sourceTree = "<group>";
-		};
-		931AD83875F3D7C592E57C54 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				931AD6B0D3B00C77BEB6D3BC /* JKColors.framework */,
-				931AD054036722DD444BCB33 /* JKColorsTests.xctest */,
-				1D63B3EE20D0DEAA002F8892 /* JKColors_watchOS.framework */,
-				1D63B3FB20D0DFD9002F8892 /* JKColors_tvOS.framework */,
-				1D63B40320D0DFDA002F8892 /* JKColors_tvOSTests.xctest */,
-				1D63B41720D0EE3B002F8892 /* JKColors_macOS.framework */,
-				1D63B41F20D0EE3B002F8892 /* JKColors_macOSTests.xctest */,
+				1DC9E5A220D16E720084C73A /* JKColors.framework */,
+				1DC9E5AB20D16E730084C73A /* JKColorsTests.xctest */,
+				1DC9E5C120D16F5D0084C73A /* JKColors.framework */,
+				1DC9E5D020D1704B0084C73A /* JKColors.framework */,
+				1DC9E5D820D1704C0084C73A /* JKColors_tvOSTests.xctest */,
+				1DC9E5EE20D244FE0084C73A /* JKColors.framework */,
+				1DC9E5F620D244FE0084C73A /* JKColors_macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		931ADA9F14A96F6885794D22 /* Shared */ = {
+		1DC9E5A420D16E720084C73A /* JKColors */ = {
 			isa = PBXGroup;
 			children = (
-				931ADB7D709CBA5B088FA2B0 /* String+HexColorSupport.swift */,
-				931AD0181011314C4F7C0F00 /* UIColor+HexSupport.swift */,
+				1DC9E5A520D16E720084C73A /* JKColors.h */,
+				1DC9E5A620D16E720084C73A /* Info.plist */,
+			);
+			path = JKColors;
+			sourceTree = "<group>";
+		};
+		1DC9E5AF20D16E730084C73A /* JKColorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC9E5B220D16E730084C73A /* Info.plist */,
+			);
+			path = JKColorsTests;
+			sourceTree = "<group>";
+		};
+		1DC9E5C220D16F5D0084C73A /* JKColors_watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DC9E5C320D16F5D0084C73A /* JKColors_watchOS.h */,
+				1DC9E5C420D16F5E0084C73A /* Info.plist */,
+			);
+			path = JKColors_watchOS;
+			sourceTree = "<group>";
+		};
+		1DC9E5D120D1704B0084C73A /* JKColors_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DC9E5D220D1704B0084C73A /* JKColors_tvOS.h */,
+				1DC9E5D320D1704B0084C73A /* Info.plist */,
+			);
+			path = JKColors_tvOS;
+			sourceTree = "<group>";
+		};
+		1DC9E5DC20D1704C0084C73A /* JKColors_tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC9E5DF20D1704C0084C73A /* Info.plist */,
+			);
+			path = JKColors_tvOSTests;
+			sourceTree = "<group>";
+		};
+		1DC9E5EF20D244FE0084C73A /* JKColors_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DC9E5F020D244FE0084C73A /* JKColors_macOS.h */,
+				1DC9E5F120D244FE0084C73A /* Info.plist */,
+				931ADB5BCAC0671447E88C82 /* NSColor+HexSupport.swift */,
+				931AD9B52160511B4DA85592 /* String+HexColorSupport.swift */,
+			);
+			path = JKColors_macOS;
+			sourceTree = "<group>";
+		};
+		1DC9E5FA20D244FE0084C73A /* JKColors_macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC9E5FD20D244FE0084C73A /* Info.plist */,
+				931ADD4FAA547847B8D9F13D /* NSColorRGBTest.swift */,
+			);
+			path = JKColors_macOSTests;
+			sourceTree = "<group>";
+		};
+		1DC9E60520D2BC060084C73A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DC9E60E20D2BC580084C73A /* Nimble.framework */,
+				1DC9E60F20D2BC580084C73A /* Quick.framework */,
+				1DC9E60A20D2BC3E0084C73A /* Nimble.framework */,
+				1DC9E60B20D2BC3E0084C73A /* Quick.framework */,
+				1DC9E60620D2BC070084C73A /* Nimble.framework */,
+				1DC9E60720D2BC070084C73A /* Quick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		931AD49F6CD45F1B91883488 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				931ADD957B98BE0425BC5438 /* String+HexColorSupport.swift */,
+				931AD2AD5991C8D6ED3AED56 /* UIColor+HexSupport.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		931ADEA413431ADFD2415195 = {
+		931AD8EE0C05F2CD334A00FF /* SharedTest */ = {
 			isa = PBXGroup;
 			children = (
-				1D63B3EF20D0DEAA002F8892 /* JKColors_watchOS */,
-				1D63B3FC20D0DFDA002F8892 /* JKColors_tvOS */,
-				1D63B40720D0DFDA002F8892 /* JKColors_tvOSTests */,
-				1D63B41820D0EE3B002F8892 /* JKColors_macOS */,
-				1D63B42320D0EE3B002F8892 /* JKColors_macOSTests */,
-				931AD83875F3D7C592E57C54 /* Products */,
-				931AD439D1A40F09707BAEEB /* JKColors */,
-				931ADFAA3A195AF37AD87106 /* JKColorsTests */,
-				931ADD4CB7ACA9A99BDB3FEB /* .swiftlint.yml */,
-				931ADA9F14A96F6885794D22 /* Shared */,
-				931AD22D4FB74D5FE59BCF13 /* SharedTest */,
-				1D63B42E20D14117002F8892 /* Frameworks */,
+				931ADE0D83FD0B3233F1D62E /* UIColorRGBTest.swift */,
 			);
-			sourceTree = "<group>";
-		};
-		931ADFAA3A195AF37AD87106 /* JKColorsTests */ = {
-			isa = PBXGroup;
-			children = (
-				931AD7ACAD20FCBA2E401F35 /* Info.plist */,
-				931AD31F86CE03AE82282AB8 /* JKColorsTests.swift */,
-			);
-			path = JKColorsTests;
+			path = SharedTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1D63B3EB20D0DEAA002F8892 /* Headers */ = {
+		1DC9E59F20D16E720084C73A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D63B3F220D0DEAA002F8892 /* JKColors_watchOS.h in Headers */,
+				1DC9E5B320D16E730084C73A /* JKColors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B3F820D0DFD9002F8892 /* Headers */ = {
+		1DC9E5BE20D16F5D0084C73A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D63B40B20D0DFDA002F8892 /* JKColors_tvOS.h in Headers */,
+				1DC9E5C520D16F5E0084C73A /* JKColors_watchOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B41420D0EE3B002F8892 /* Headers */ = {
+		1DC9E5CD20D1704B0084C73A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D63B42720D0EE3B002F8892 /* JKColors_macOS.h in Headers */,
+				1DC9E5E020D1704C0084C73A /* JKColors_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		931AD413870096271EACC7D9 /* Headers */ = {
+		1DC9E5EB20D244FE0084C73A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931ADB7C079EE00A295946CA /* JKColors.h in Headers */,
+				1DC9E5FE20D244FE0084C73A /* JKColors_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1D63B3ED20D0DEAA002F8892 /* JKColors_watchOS */ = {
+		1DC9E5A120D16E720084C73A /* JKColors_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D63B3F520D0DEAA002F8892 /* Build configuration list for PBXNativeTarget "JKColors_watchOS" */;
+			buildConfigurationList = 1DC9E5B620D16E730084C73A /* Build configuration list for PBXNativeTarget "JKColors_iOS" */;
 			buildPhases = (
-				1D63B3E920D0DEAA002F8892 /* Sources */,
-				1D63B3EA20D0DEAA002F8892 /* Frameworks */,
-				1D63B3EB20D0DEAA002F8892 /* Headers */,
-				1D63B3EC20D0DEAA002F8892 /* Resources */,
+				1DC9E59D20D16E720084C73A /* Sources */,
+				1DC9E59E20D16E720084C73A /* Frameworks */,
+				1DC9E59F20D16E720084C73A /* Headers */,
+				1DC9E5A020D16E720084C73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKColors_iOS;
+			productName = JKColors;
+			productReference = 1DC9E5A220D16E720084C73A /* JKColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1DC9E5AA20D16E730084C73A /* JKColorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC9E5B920D16E730084C73A /* Build configuration list for PBXNativeTarget "JKColorsTests" */;
+			buildPhases = (
+				1DC9E5A720D16E730084C73A /* Sources */,
+				1DC9E5A820D16E730084C73A /* Frameworks */,
+				1DC9E5A920D16E730084C73A /* Resources */,
+				1DC9E61220D2BE890084C73A /* Carthage Copy */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC9E5AE20D16E730084C73A /* PBXTargetDependency */,
+			);
+			name = JKColorsTests;
+			productName = JKColorsTests;
+			productReference = 1DC9E5AB20D16E730084C73A /* JKColorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DC9E5C020D16F5D0084C73A /* JKColors_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC9E5C820D16F5E0084C73A /* Build configuration list for PBXNativeTarget "JKColors_watchOS" */;
+			buildPhases = (
+				1DC9E5BC20D16F5D0084C73A /* Sources */,
+				1DC9E5BD20D16F5D0084C73A /* Frameworks */,
+				1DC9E5BE20D16F5D0084C73A /* Headers */,
+				1DC9E5BF20D16F5D0084C73A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -334,17 +368,17 @@
 			);
 			name = JKColors_watchOS;
 			productName = JKColors_watchOS;
-			productReference = 1D63B3EE20D0DEAA002F8892 /* JKColors_watchOS.framework */;
+			productReference = 1DC9E5C120D16F5D0084C73A /* JKColors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1D63B3FA20D0DFD9002F8892 /* JKColors_tvOS */ = {
+		1DC9E5CF20D1704B0084C73A /* JKColors_tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D63B41020D0DFDA002F8892 /* Build configuration list for PBXNativeTarget "JKColors_tvOS" */;
+			buildConfigurationList = 1DC9E5E120D1704C0084C73A /* Build configuration list for PBXNativeTarget "JKColors_tvOS" */;
 			buildPhases = (
-				1D63B3F620D0DFD9002F8892 /* Sources */,
-				1D63B3F720D0DFD9002F8892 /* Frameworks */,
-				1D63B3F820D0DFD9002F8892 /* Headers */,
-				1D63B3F920D0DFD9002F8892 /* Resources */,
+				1DC9E5CB20D1704B0084C73A /* Sources */,
+				1DC9E5CC20D1704B0084C73A /* Frameworks */,
+				1DC9E5CD20D1704B0084C73A /* Headers */,
+				1DC9E5CE20D1704B0084C73A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -352,35 +386,36 @@
 			);
 			name = JKColors_tvOS;
 			productName = JKColors_tvOS;
-			productReference = 1D63B3FB20D0DFD9002F8892 /* JKColors_tvOS.framework */;
+			productReference = 1DC9E5D020D1704B0084C73A /* JKColors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1D63B40220D0DFDA002F8892 /* JKColors_tvOSTests */ = {
+		1DC9E5D720D1704C0084C73A /* JKColors_tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D63B41120D0DFDA002F8892 /* Build configuration list for PBXNativeTarget "JKColors_tvOSTests" */;
+			buildConfigurationList = 1DC9E5E420D1704C0084C73A /* Build configuration list for PBXNativeTarget "JKColors_tvOSTests" */;
 			buildPhases = (
-				1D63B3FF20D0DFDA002F8892 /* Sources */,
-				1D63B40020D0DFDA002F8892 /* Frameworks */,
-				1D63B40120D0DFDA002F8892 /* Resources */,
+				1DC9E5D420D1704C0084C73A /* Sources */,
+				1DC9E5D520D1704C0084C73A /* Frameworks */,
+				1DC9E5D620D1704C0084C73A /* Resources */,
+				1DC9E61620D2EC1B0084C73A /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1D63B40620D0DFDA002F8892 /* PBXTargetDependency */,
+				1DC9E5DB20D1704C0084C73A /* PBXTargetDependency */,
 			);
 			name = JKColors_tvOSTests;
 			productName = JKColors_tvOSTests;
-			productReference = 1D63B40320D0DFDA002F8892 /* JKColors_tvOSTests.xctest */;
+			productReference = 1DC9E5D820D1704C0084C73A /* JKColors_tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1D63B41620D0EE3B002F8892 /* JKColors_macOS */ = {
+		1DC9E5ED20D244FE0084C73A /* JKColors_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D63B42820D0EE3B002F8892 /* Build configuration list for PBXNativeTarget "JKColors_macOS" */;
+			buildConfigurationList = 1DC9E5FF20D244FE0084C73A /* Build configuration list for PBXNativeTarget "JKColors_macOS" */;
 			buildPhases = (
-				1D63B41220D0EE3B002F8892 /* Sources */,
-				1D63B41320D0EE3B002F8892 /* Frameworks */,
-				1D63B41420D0EE3B002F8892 /* Headers */,
-				1D63B41520D0EE3B002F8892 /* Resources */,
+				1DC9E5E920D244FE0084C73A /* Sources */,
+				1DC9E5EA20D244FE0084C73A /* Frameworks */,
+				1DC9E5EB20D244FE0084C73A /* Headers */,
+				1DC9E5EC20D244FE0084C73A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -388,169 +423,128 @@
 			);
 			name = JKColors_macOS;
 			productName = JKColors_macOS;
-			productReference = 1D63B41720D0EE3B002F8892 /* JKColors_macOS.framework */;
+			productReference = 1DC9E5EE20D244FE0084C73A /* JKColors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1D63B41E20D0EE3B002F8892 /* JKColors_macOSTests */ = {
+		1DC9E5F520D244FE0084C73A /* JKColors_macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D63B42B20D0EE3B002F8892 /* Build configuration list for PBXNativeTarget "JKColors_macOSTests" */;
+			buildConfigurationList = 1DC9E60220D244FE0084C73A /* Build configuration list for PBXNativeTarget "JKColors_macOSTests" */;
 			buildPhases = (
-				1D63B41B20D0EE3B002F8892 /* Sources */,
-				1D63B41C20D0EE3B002F8892 /* Frameworks */,
-				1D63B41D20D0EE3B002F8892 /* Resources */,
+				1DC9E5F220D244FE0084C73A /* Sources */,
+				1DC9E5F320D244FE0084C73A /* Frameworks */,
+				1DC9E5F420D244FE0084C73A /* Resources */,
+				1DC9E61720D2ED1C0084C73A /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1D63B42220D0EE3B002F8892 /* PBXTargetDependency */,
+				1DC9E5F920D244FE0084C73A /* PBXTargetDependency */,
 			);
 			name = JKColors_macOSTests;
 			productName = JKColors_macOSTests;
-			productReference = 1D63B41F20D0EE3B002F8892 /* JKColors_macOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		931AD99171E8469383BC9099 /* JKColors */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 931ADFBF81479D2A56C0C950 /* Build configuration list for PBXNativeTarget "JKColors" */;
-			buildPhases = (
-				931AD169674AD67ED7929FB5 /* Sources */,
-				931ADA760C76FC9F6F32EA66 /* Frameworks */,
-				931AD413870096271EACC7D9 /* Headers */,
-				931AD7BBCDA04D895EBC513D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JKColors;
-			productName = JKColors;
-			productReference = 931AD6B0D3B00C77BEB6D3BC /* JKColors.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		931ADDB2628186DC08C32C0D /* JKColorsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 931ADC533E3EFF665EB5CF67 /* Build configuration list for PBXNativeTarget "JKColorsTests" */;
-			buildPhases = (
-				931AD0DF8402AAA11F702178 /* Sources */,
-				931ADB6ED589E4A4B4A8EB43 /* Frameworks */,
-				931ADB980609489576927329 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				931AD31C66EBA2E4F1D982DA /* PBXTargetDependency */,
-			);
-			name = JKColorsTests;
-			productName = JKColorsTests;
-			productReference = 931AD054036722DD444BCB33 /* JKColorsTests.xctest */;
+			productReference = 1DC9E5F620D244FE0084C73A /* JKColors_macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		931ADD6ECC443AE41C580EFC /* Project object */ = {
+		1DC9E59920D16E720084C73A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "Jan Kaše";
+				ORGANIZATIONNAME = "Jan Kase";
 				TargetAttributes = {
-					1D63B3ED20D0DEAA002F8892 = {
+					1DC9E5A120D16E720084C73A = {
 						CreatedOnToolsVersion = 9.4;
-						ProvisioningStyle = Manual;
 					};
-					1D63B3FA20D0DFD9002F8892 = {
+					1DC9E5AA20D16E730084C73A = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = 8WS8N285FL;
-						ProvisioningStyle = Automatic;
 					};
-					1D63B40220D0DFDA002F8892 = {
+					1DC9E5C020D16F5D0084C73A = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = 8WS8N285FL;
-						ProvisioningStyle = Automatic;
 					};
-					1D63B41620D0EE3B002F8892 = {
+					1DC9E5CF20D1704B0084C73A = {
 						CreatedOnToolsVersion = 9.4;
-						ProvisioningStyle = Manual;
 					};
-					1D63B41E20D0EE3B002F8892 = {
+					1DC9E5D720D1704C0084C73A = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = 8WS8N285FL;
-						ProvisioningStyle = Automatic;
 					};
-					931ADDB2628186DC08C32C0D = {
-						DevelopmentTeam = 8WS8N285FL;
+					1DC9E5ED20D244FE0084C73A = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					1DC9E5F520D244FE0084C73A = {
+						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
-			buildConfigurationList = 931ADCE988D81BD1E5611718 /* Build configuration list for PBXProject "JKColors" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 1DC9E59C20D16E720084C73A /* Build configuration list for PBXProject "JKColors" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 931ADEA413431ADFD2415195;
-			productRefGroup = 931AD83875F3D7C592E57C54 /* Products */;
+			mainGroup = 1DC9E59820D16E720084C73A;
+			productRefGroup = 1DC9E5A320D16E720084C73A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				931AD99171E8469383BC9099 /* JKColors */,
-				1D63B3ED20D0DEAA002F8892 /* JKColors_watchOS */,
-				1D63B3FA20D0DFD9002F8892 /* JKColors_tvOS */,
-				1D63B41620D0EE3B002F8892 /* JKColors_macOS */,
-				931ADDB2628186DC08C32C0D /* JKColorsTests */,
-				1D63B40220D0DFDA002F8892 /* JKColors_tvOSTests */,
-				1D63B41E20D0EE3B002F8892 /* JKColors_macOSTests */,
+				1DC9E5A120D16E720084C73A /* JKColors_iOS */,
+				1DC9E5C020D16F5D0084C73A /* JKColors_watchOS */,
+				1DC9E5CF20D1704B0084C73A /* JKColors_tvOS */,
+				1DC9E5ED20D244FE0084C73A /* JKColors_macOS */,
+				1DC9E5AA20D16E730084C73A /* JKColorsTests */,
+				1DC9E5D720D1704C0084C73A /* JKColors_tvOSTests */,
+				1DC9E5F520D244FE0084C73A /* JKColors_macOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D63B3EC20D0DEAA002F8892 /* Resources */ = {
+		1DC9E5A020D16E720084C73A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B3F920D0DFD9002F8892 /* Resources */ = {
+		1DC9E5A920D16E730084C73A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B40120D0DFDA002F8892 /* Resources */ = {
+		1DC9E5BF20D16F5D0084C73A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B41520D0EE3B002F8892 /* Resources */ = {
+		1DC9E5CE20D1704B0084C73A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B41D20D0EE3B002F8892 /* Resources */ = {
+		1DC9E5D620D1704C0084C73A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		931AD7BBCDA04D895EBC513D /* Resources */ = {
+		1DC9E5EC20D244FE0084C73A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931AD55CEBCFBD666D113A73 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		931ADB980609489576927329 /* Resources */ = {
+		1DC9E5F420D244FE0084C73A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -559,433 +553,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DC9E61220D2BE890084C73A /* Carthage Copy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+			);
+			name = "Carthage Copy";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DC9E61620D2EC1B0084C73A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Quick.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DC9E61720D2ED1C0084C73A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/Quick.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1D63B3E920D0DEAA002F8892 /* Sources */ = {
+		1DC9E59D20D16E720084C73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931ADD12C0688423539563E8 /* String+HexColorSupport.swift in Sources */,
-				931AD81B292063F3F046093A /* UIColor+HexSupport.swift in Sources */,
+				931AD72CEB3F8319DA76FC1E /* String+HexColorSupport.swift in Sources */,
+				931ADB58178025C661C5A01D /* UIColor+HexSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B3F620D0DFD9002F8892 /* Sources */ = {
+		1DC9E5A720D16E730084C73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931ADC3B2FFF663425A22035 /* String+HexColorSupport.swift in Sources */,
-				931AD995A8A9B4736783EDA2 /* UIColor+HexSupport.swift in Sources */,
+				931AD64A976C78E2DC79116A /* UIColorRGBTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B3FF20D0DFDA002F8892 /* Sources */ = {
+		1DC9E5BC20D16F5D0084C73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D63B40920D0DFDA002F8892 /* JKColors_tvOSTests.swift in Sources */,
+				1DC9E5C920D16F760084C73A /* String+HexColorSupport.swift in Sources */,
+				1DC9E5CA20D16F7A0084C73A /* UIColor+HexSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B41220D0EE3B002F8892 /* Sources */ = {
+		1DC9E5CB20D1704B0084C73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931ADBC602B86E0617EC19B3 /* NSColor+HexSupport.swift in Sources */,
-				931ADD6C0F4E0D0B4DEE5797 /* String+HexColorSupport.swift in Sources */,
+				1DC9E5E720D170730084C73A /* String+HexColorSupport.swift in Sources */,
+				1DC9E5E820D170760084C73A /* UIColor+HexSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D63B41B20D0EE3B002F8892 /* Sources */ = {
+		1DC9E5D420D1704C0084C73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D63B42520D0EE3B002F8892 /* JKColors_macOSTests.swift in Sources */,
+				931AD0ECB157A579331CD461 /* UIColorRGBTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		931AD0DF8402AAA11F702178 /* Sources */ = {
+		1DC9E5E920D244FE0084C73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931AD76CCF0816CBB03D3A48 /* JKColorsTests.swift in Sources */,
+				931AD0D137D322834631DB80 /* NSColor+HexSupport.swift in Sources */,
+				931AD29D9CC7D32A355F98FA /* String+HexColorSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		931AD169674AD67ED7929FB5 /* Sources */ = {
+		1DC9E5F220D244FE0084C73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931ADD19A55543F79EB27DD1 /* String+HexColorSupport.swift in Sources */,
-				931AD2150E0792F5B6DD2C6C /* UIColor+HexSupport.swift in Sources */,
+				931AD9269A3F2867CBE3C445 /* NSColorRGBTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D63B40620D0DFDA002F8892 /* PBXTargetDependency */ = {
+		1DC9E5AE20D16E730084C73A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D63B3FA20D0DFD9002F8892 /* JKColors_tvOS */;
-			targetProxy = 1D63B40520D0DFDA002F8892 /* PBXContainerItemProxy */;
+			target = 1DC9E5A120D16E720084C73A /* JKColors_iOS */;
+			targetProxy = 1DC9E5AD20D16E730084C73A /* PBXContainerItemProxy */;
 		};
-		1D63B42220D0EE3B002F8892 /* PBXTargetDependency */ = {
+		1DC9E5DB20D1704C0084C73A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D63B41620D0EE3B002F8892 /* JKColors_macOS */;
-			targetProxy = 1D63B42120D0EE3B002F8892 /* PBXContainerItemProxy */;
+			target = 1DC9E5CF20D1704B0084C73A /* JKColors_tvOS */;
+			targetProxy = 1DC9E5DA20D1704C0084C73A /* PBXContainerItemProxy */;
 		};
-		931AD31C66EBA2E4F1D982DA /* PBXTargetDependency */ = {
+		1DC9E5F920D244FE0084C73A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 931AD99171E8469383BC9099 /* JKColors */;
-			targetProxy = 931ADB39B16D1E87C52E5FA7 /* PBXContainerItemProxy */;
+			target = 1DC9E5ED20D244FE0084C73A /* JKColors_macOS */;
+			targetProxy = 1DC9E5F820D244FE0084C73A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D63B3F320D0DEAA002F8892 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JKColors_watchOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
-		1D63B3F420D0DEAA002F8892 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JKColors_watchOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
-		1D63B40C20D0DFDA002F8892 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8WS8N285FL;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JKColors_tvOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.4;
-			};
-			name = Debug;
-		};
-		1D63B40D20D0DFDA002F8892 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8WS8N285FL;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JKColors_tvOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.4;
-			};
-			name = Release;
-		};
-		1D63B40E20D0DFDA002F8892 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WS8N285FL;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = JKColors_tvOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-tvOSTests";
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.4;
-			};
-			name = Debug;
-		};
-		1D63B40F20D0DFDA002F8892 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WS8N285FL;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = JKColors_tvOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-tvOSTests";
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.4;
-			};
-			name = Release;
-		};
-		1D63B42920D0EE3B002F8892 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = JKColors_macOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		1D63B42A20D0EE3B002F8892 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = JKColors_macOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		1D63B42C20D0EE3B002F8892 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8WS8N285FL;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = JKColors_macOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-macOSTests";
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		1D63B42D20D0EE3B002F8892 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8WS8N285FL;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = JKColors_macOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-macOSTests";
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		931AD050F91325D98BAE6C81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_MODULE_NAME = JKColors;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		931AD21B0DD4D9183F46040A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 8WS8N285FL;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = JKColorsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.JKColorsTests;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		931AD3E0505A4F444EF84414 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 8WS8N285FL;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = JKColorsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.JKColorsTests;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		931AD43F45F7D399F6E2E760 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JKColors/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.JKColors;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		931AD6D5F371D1A727CEBAF1 /* Debug */ = {
+		1DC9E5B420D16E730084C73A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1037,10 +742,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_MODULE_NAME = JKColors;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1049,101 +753,507 @@
 			};
 			name = Debug;
 		};
-		931ADED4604E3625DA64A833 /* Release */ = {
+		1DC9E5B520D16E730084C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DC9E5B720D16E730084C73A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = JKColors/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.JKColors;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = JKColors;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DC9E5B820D16E730084C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKColors/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.JKColors;
+				PRODUCT_NAME = JKColors;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		1DC9E5BA20D16E730084C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = JKColorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.JKColorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DC9E5BB20D16E730084C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = JKColorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.JKColorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DC9E5C620D16F5E0084C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKColors_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-watchOS";
+				PRODUCT_NAME = JKColors;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		1DC9E5C720D16F5E0084C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKColors_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-watchOS";
+				PRODUCT_NAME = JKColors;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		1DC9E5E220D1704C0084C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKColors_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-tvOS";
+				PRODUCT_NAME = JKColors;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		1DC9E5E320D1704C0084C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKColors_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-tvOS";
+				PRODUCT_NAME = JKColors;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		1DC9E5E520D1704C0084C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = JKColors_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		1DC9E5E620D1704C0084C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = JKColors_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		1DC9E60020D244FE0084C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = JKColors_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-macOS";
+				PRODUCT_NAME = JKColors;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1DC9E60120D244FE0084C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = JKColors_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-macOS";
+				PRODUCT_NAME = JKColors;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1DC9E60320D244FE0084C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = JKColors_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1DC9E60420D244FE0084C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = JKColors_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.JKColors-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D63B3F520D0DEAA002F8892 /* Build configuration list for PBXNativeTarget "JKColors_watchOS" */ = {
+		1DC9E59C20D16E720084C73A /* Build configuration list for PBXProject "JKColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D63B3F320D0DEAA002F8892 /* Debug */,
-				1D63B3F420D0DEAA002F8892 /* Release */,
+				1DC9E5B420D16E730084C73A /* Debug */,
+				1DC9E5B520D16E730084C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D63B41020D0DFDA002F8892 /* Build configuration list for PBXNativeTarget "JKColors_tvOS" */ = {
+		1DC9E5B620D16E730084C73A /* Build configuration list for PBXNativeTarget "JKColors_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D63B40C20D0DFDA002F8892 /* Debug */,
-				1D63B40D20D0DFDA002F8892 /* Release */,
+				1DC9E5B720D16E730084C73A /* Debug */,
+				1DC9E5B820D16E730084C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D63B41120D0DFDA002F8892 /* Build configuration list for PBXNativeTarget "JKColors_tvOSTests" */ = {
+		1DC9E5B920D16E730084C73A /* Build configuration list for PBXNativeTarget "JKColorsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D63B40E20D0DFDA002F8892 /* Debug */,
-				1D63B40F20D0DFDA002F8892 /* Release */,
+				1DC9E5BA20D16E730084C73A /* Debug */,
+				1DC9E5BB20D16E730084C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D63B42820D0EE3B002F8892 /* Build configuration list for PBXNativeTarget "JKColors_macOS" */ = {
+		1DC9E5C820D16F5E0084C73A /* Build configuration list for PBXNativeTarget "JKColors_watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D63B42920D0EE3B002F8892 /* Debug */,
-				1D63B42A20D0EE3B002F8892 /* Release */,
+				1DC9E5C620D16F5E0084C73A /* Debug */,
+				1DC9E5C720D16F5E0084C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D63B42B20D0EE3B002F8892 /* Build configuration list for PBXNativeTarget "JKColors_macOSTests" */ = {
+		1DC9E5E120D1704C0084C73A /* Build configuration list for PBXNativeTarget "JKColors_tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D63B42C20D0EE3B002F8892 /* Debug */,
-				1D63B42D20D0EE3B002F8892 /* Release */,
+				1DC9E5E220D1704C0084C73A /* Debug */,
+				1DC9E5E320D1704C0084C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		931ADC533E3EFF665EB5CF67 /* Build configuration list for PBXNativeTarget "JKColorsTests" */ = {
+		1DC9E5E420D1704C0084C73A /* Build configuration list for PBXNativeTarget "JKColors_tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				931AD3E0505A4F444EF84414 /* Debug */,
-				931AD21B0DD4D9183F46040A /* Release */,
+				1DC9E5E520D1704C0084C73A /* Debug */,
+				1DC9E5E620D1704C0084C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		931ADCE988D81BD1E5611718 /* Build configuration list for PBXProject "JKColors" */ = {
+		1DC9E5FF20D244FE0084C73A /* Build configuration list for PBXNativeTarget "JKColors_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				931AD6D5F371D1A727CEBAF1 /* Debug */,
-				931AD050F91325D98BAE6C81 /* Release */,
+				1DC9E60020D244FE0084C73A /* Debug */,
+				1DC9E60120D244FE0084C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		931ADFBF81479D2A56C0C950 /* Build configuration list for PBXNativeTarget "JKColors" */ = {
+		1DC9E60220D244FE0084C73A /* Build configuration list for PBXNativeTarget "JKColors_macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				931AD43F45F7D399F6E2E760 /* Debug */,
-				931ADED4604E3625DA64A833 /* Release */,
+				1DC9E60320D244FE0084C73A /* Debug */,
+				1DC9E60420D244FE0084C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 931ADD6ECC443AE41C580EFC /* Project object */;
+	rootObject = 1DC9E59920D16E720084C73A /* Project object */;
 }

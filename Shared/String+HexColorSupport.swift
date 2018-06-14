@@ -7,7 +7,7 @@ import UIKit
 
 public extension String {
 
-  public func toColor(alpha anAlpha: CGFloat = 1) -> UIColor? {
+  func toColor(alpha anAlpha: CGFloat = 1) -> UIColor? {
     var theTrimmedString = trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
 
     if theTrimmedString.hasPrefix("#") {

@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D63B3ED20D0DEAA002F8892"
-               BuildableName = "JKColors_watchOS.framework"
+               BlueprintIdentifier = "1DC9E5C020D16F5D0084C73A"
+               BuildableName = "JKColors.framework"
                BlueprintName = "JKColors_watchOS"
                ReferencedContainer = "container:JKColors.xcodeproj">
             </BuildableReference>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -45,8 +46,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D63B3ED20D0DEAA002F8892"
-            BuildableName = "JKColors_watchOS.framework"
+            BlueprintIdentifier = "1DC9E5C020D16F5D0084C73A"
+            BuildableName = "JKColors.framework"
             BlueprintName = "JKColors_watchOS"
             ReferencedContainer = "container:JKColors.xcodeproj">
          </BuildableReference>
@@ -63,8 +64,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D63B3ED20D0DEAA002F8892"
-            BuildableName = "JKColors_watchOS.framework"
+            BlueprintIdentifier = "1DC9E5C020D16F5D0084C73A"
+            BuildableName = "JKColors.framework"
             BlueprintName = "JKColors_watchOS"
             ReferencedContainer = "container:JKColors.xcodeproj">
          </BuildableReference>

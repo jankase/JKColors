@@ -3,7 +3,7 @@
 //  JKColors_watchOS
 //
 //  Created by Jan Kase on 13/06/2018.
-//  Copyright © 2018 Jan Kaše. All rights reserved.
+//  Copyright © 2018 Jan Kase. All rights reserved.
 //
 
 #import <WatchKit/WatchKit.h>

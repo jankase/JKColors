@@ -2,8 +2,8 @@
 //  JKColors_macOS.h
 //  JKColors_macOS
 //
-//  Created by Jan Kase on 13/06/2018.
-//  Copyright © 2018 Jan Kaše. All rights reserved.
+//  Created by Jan Kase on 14/06/2018.
+//  Copyright © 2018 Jan Kase. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
