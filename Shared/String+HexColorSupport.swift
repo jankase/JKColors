@@ -19,9 +19,11 @@ public extension String {
     }
 
     var theRgb: UInt32 = 0
-    Scanner(string: theTrimmedString).scanHexInt32(&theRgb)
+    guard Scanner(string: theTrimmedString).scanHexInt32(&theRgb) else {
+      return nil
+    }
 
-    return UIColor(rgb: theRgb, alpha: anAlpha)
+    return UIColor(rgb: Int(theRgb), alpha: anAlpha)
 
   }
 

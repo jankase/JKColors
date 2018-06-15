@@ -7,7 +7,7 @@ import AppKit
 
 public extension String {
 
-  public func toColor(alpha anAlpha: CGFloat = 1) -> NSColor? {
+  func toColor(alpha anAlpha: CGFloat = 1) -> NSColor? {
     var theTrimmedString = trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
 
     if theTrimmedString.hasPrefix("#") {
@@ -19,9 +19,11 @@ public extension String {
     }
 
     var theRgb: UInt32 = 0
-    Scanner(string: theTrimmedString).scanHexInt32(&theRgb)
+    guard Scanner(string: theTrimmedString).scanHexInt32(&theRgb) else {
+      return nil
+    }
 
-    return NSColor(rgb: theRgb, alpha: anAlpha)
+    return NSColor(rgb: Int(theRgb), alpha: anAlpha)
 
   }
 

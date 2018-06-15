@@ -17,22 +17,32 @@ class UIColorRGBTest: QuickSpec {
       var theBlue: CGFloat = 0
       var theGreen: CGFloat = 0
       var theAlpha: CGFloat = 0
-      beforeEach {
-        let theInt = 0xABACAD
-        theColor = UIColor(rgb: theInt, alpha: 1)
-        theColor.getRed(&theRed, green: &theGreen, blue: &theBlue, alpha: &theAlpha)
+      context("with correct hex specification") {
+        beforeEach {
+          let theInt = 0xABACAD
+          theColor = UIColor(rgb: theInt, alpha: 1)
+          theColor.getRed(&theRed, green: &theGreen, blue: &theBlue, alpha: &theAlpha)
+        }
+        it("has correct red color component") {
+          expect(theRed).to(beCloseTo(171.0 / 255.0))
+        }
+        it("has correct green color component") {
+          expect(theGreen).to(beCloseTo(172.0 / 255.0))
+        }
+        it("has correct blue color component") {
+          expect(theBlue).to(beCloseTo(173.0 / 255.0))
+        }
+        it("has correct alpha") {
+          expect(theAlpha).to(beCloseTo(1.0))
+        }
       }
-      it("has correct red color component") {
-        expect(theRed).to(beCloseTo(171.0 / 255.0))
-      }
-      it("has correct green color component") {
-        expect(theGreen).to(beCloseTo(172.0 / 255.0))
-      }
-      it("has correct blue color component") {
-        expect(theBlue).to(beCloseTo(173.0 / 255.0))
-      }
-      it("has correct alpha") {
-        expect(theAlpha).to(beCloseTo(1.0))
+      context("incorrect integer components") {
+        beforeEach {
+          theColor = UIColor(red: 300, green: 155, blue: 155)
+        }
+        it("not create instance of UIColor") {
+          expect(theColor).to(beNil())
+        }
       }
     }
   }

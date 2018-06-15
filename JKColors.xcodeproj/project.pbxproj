@@ -27,9 +27,12 @@
 		931AD0D137D322834631DB80 /* NSColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB5BCAC0671447E88C82 /* NSColor+HexSupport.swift */; };
 		931AD0ECB157A579331CD461 /* UIColorRGBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADE0D83FD0B3233F1D62E /* UIColorRGBTest.swift */; };
 		931AD29D9CC7D32A355F98FA /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD9B52160511B4DA85592 /* String+HexColorSupport.swift */; };
+		931AD3824D1EB0B5B2F7DB0E /* NSColorStringHexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD7007CDF4E362A28FC3C /* NSColorStringHexTest.swift */; };
 		931AD64A976C78E2DC79116A /* UIColorRGBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADE0D83FD0B3233F1D62E /* UIColorRGBTest.swift */; };
+		931AD64E8CA08AAFC7C02CF8 /* UIColorStringHexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD8C9B84B04A0A846F916 /* UIColorStringHexTest.swift */; };
 		931AD72CEB3F8319DA76FC1E /* String+HexColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADD957B98BE0425BC5438 /* String+HexColorSupport.swift */; };
 		931AD9269A3F2867CBE3C445 /* NSColorRGBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADD4FAA547847B8D9F13D /* NSColorRGBTest.swift */; };
+		931ADA72E181317350456D76 /* UIColorStringHexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD8C9B84B04A0A846F916 /* UIColorStringHexTest.swift */; };
 		931ADB58178025C661C5A01D /* UIColor+HexSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2AD5991C8D6ED3AED56 /* UIColor+HexSupport.swift */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +86,8 @@
 		1DC9E60E20D2BC580084C73A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		1DC9E60F20D2BC580084C73A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
 		931AD2AD5991C8D6ED3AED56 /* UIColor+HexSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexSupport.swift"; sourceTree = "<group>"; };
+		931AD7007CDF4E362A28FC3C /* NSColorStringHexTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorStringHexTest.swift; sourceTree = "<group>"; };
+		931AD8C9B84B04A0A846F916 /* UIColorStringHexTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorStringHexTest.swift; sourceTree = "<group>"; };
 		931AD935FB4246DEE1769C18 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = file.private; path = Cartfile.private; sourceTree = "<group>"; };
 		931AD9B52160511B4DA85592 /* String+HexColorSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HexColorSupport.swift"; sourceTree = "<group>"; };
 		931ADB5BCAC0671447E88C82 /* NSColor+HexSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+HexSupport.swift"; sourceTree = "<group>"; };
@@ -244,6 +249,7 @@
 			children = (
 				1DC9E5FD20D244FE0084C73A /* Info.plist */,
 				931ADD4FAA547847B8D9F13D /* NSColorRGBTest.swift */,
+				931AD7007CDF4E362A28FC3C /* NSColorStringHexTest.swift */,
 			);
 			path = JKColors_macOSTests;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				931ADE0D83FD0B3233F1D62E /* UIColorRGBTest.swift */,
+				931AD8C9B84B04A0A846F916 /* UIColorStringHexTest.swift */,
 			);
 			path = SharedTest;
 			sourceTree = "<group>";
@@ -623,6 +630,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				931AD64A976C78E2DC79116A /* UIColorRGBTest.swift in Sources */,
+				931AD64E8CA08AAFC7C02CF8 /* UIColorStringHexTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,6 +657,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				931AD0ECB157A579331CD461 /* UIColorRGBTest.swift in Sources */,
+				931ADA72E181317350456D76 /* UIColorStringHexTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +675,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				931AD9269A3F2867CBE3C445 /* NSColorRGBTest.swift in Sources */,
+				931AD3824D1EB0B5B2F7DB0E /* NSColorStringHexTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
